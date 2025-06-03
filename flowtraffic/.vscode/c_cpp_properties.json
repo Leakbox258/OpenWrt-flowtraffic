@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/netinet/**",
+                "/usr/include/netinet/ip.h"
+            ],
+            "defines": [
+                // vscode 的 intelliSense 没有Cmake就是一坨S
+                "__USE_MISC=1",
+                "_GNU_SOURCE=1",
+                "__BYTE_ORDER=__LITTLE_ENDIAN"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,19 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.dimInactiveRegions": false,
+    "files.associations": {
+        "*.sy": "c",
+        "*.llc": "llvm",
+        "ip.h": "c",
+        "flowtraffic_group_1.h": "c",
+        "ip6.h": "c",
+        "ethernet.h": "c",
+        "if_ether.h": "c",
+        "tcp.h": "c",
+        "udp.h": "c",
+        "inet.h": "c",
+        "in.h": "c",
+        "chrono": "c",
+        "ip_icmp.h": "c"
+    }
+}
